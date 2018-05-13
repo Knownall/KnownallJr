@@ -62,5 +62,14 @@ public class App extends ListenerAdapter {
     	if (("-gay").equalsIgnoreCase(message.getContentRaw())) {
     		channel.sendMessage("So this is how " + user.getAsMention() + " comes out of the closet.").queue();;
     	}
+    	
+    	if (("-Lustfull").equalsIgnoreCase(message.getContentRaw())) {
+    		channel.sendMessage("Lustfull will never be a good player.").queue();
+    		channel.sendMessage("It will be a great player.").queue();
+    	}
+    	
+    	if (("-Miroam").equalsIgnoreCase(message.getContentRaw())) {
+    		channel.sendMessage("Stop playing fortnite and start playing some siege. :D").queue();
+    	}
     }
 }
