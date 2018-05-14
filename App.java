@@ -17,7 +17,7 @@ public class App extends ListenerAdapter {
     
 	public static void main (String[] args) throws Exception {
         
-		JDA jda = new JDABuilder(AccountType.BOT).setToken("NDQ0ODg4MTY4MjkxMTA2ODE3.DdieIg.TyFFqLhbN_mpC0Pr8Gxo73mohBA").buildBlocking();
+		JDA jda = new JDABuilder(AccountType.BOT).setToken("<Token>").buildBlocking(); //input your own token
         jda.addEventListener(new App());
         jda.setAutoReconnect(true);
     
